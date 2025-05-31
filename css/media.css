@@ -1,0 +1,547 @@
+/* ---------------------- */
+/* - 1 ---- 1366px ------ */
+/* ---------------------- */
+
+@media (max-width: 1366px) {
+
+  /* - header - */
+
+  .header--size {
+    padding: 0 100px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    padding: 130px 100px;
+  }
+
+  .hero::after {
+    right: 8%;
+  }
+
+  /* - about - */
+
+  .about--size {
+    padding: 80px 100px;
+  }
+
+  /* - teachers - */
+
+  .teachers--size {
+    padding: 73px 100px 43px 100px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 73px 100px 50px 100px;
+  }
+
+}
+
+/* ---------------------- */
+/* - 2 ---- 1200px ------ */
+/* ---------------------- */
+
+@media (max-width: 1200px) {
+
+  /* - header - */
+
+  .header--size {
+    padding: 0 60px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    padding: 130px 60px;
+  }
+
+  .hero::after {
+    right: 5.5%;
+  }
+
+ /* - about - */
+
+  .about--size {
+  padding: 80px 60px;
+  }
+
+  /* - teachers - */
+
+  .teachers--size {
+    padding: 73px 60px 43px 60px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 73px 60px 50px 60px;
+  }
+
+}
+
+/* ---------------------- */
+/* - 3 ---- 1024px ------ */
+/* ---------------------- */
+
+@media (max-width: 1024px) {
+
+  /* - header - */
+
+  .header--size {
+    padding: 0 39px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    padding: 130px 39px;
+  }
+
+  /* - about - */
+
+  .about--size {
+  padding: 80px 39px;
+  }
+
+  /* - teachers - */
+
+  .teachers--size {
+    padding: 73px 39px 43px 39px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 73px 39px 50px 39px;
+  }
+
+}
+
+/* ---------------------- */
+/* - 4 ---- 991px ------- */
+/* ---------------------- */
+
+/* -- Делаем для 768px -- */
+
+@media (max-width: 991px) {
+
+  /* - header - */
+
+  .header--size {
+    padding: 0 39px;
+  }
+
+  .header__nav-box {
+    max-width: 470px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    /* padding: 130px 39px; */
+    padding: 130px 39px 135px 39px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    max-width: 385px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: normal;
+  }
+
+  .hero__descr {
+    max-width: 345px;
+    letter-spacing: normal;
+  }
+
+  .hero__btn {
+    min-width: 270px;
+  }
+
+  .hero::before {
+    background-image: url(../img/hero_bg_768_2.jpg);
+  }
+
+  .hero::after {
+    top: 117px;
+    /* --- */
+    /* right: 163px; */
+    right: 5.1%;
+    /* --- */
+    /* max-width: 633px; */
+    max-width: 330px;
+    /* --- */
+    /* width: 100%; */
+    width: 44%;
+    max-height: 350.86px;
+    height: 100%;
+    background-image: url(../img/hero_img_768.png);
+  }
+
+  /* - about - */
+
+  .about--size {
+    /* padding: 80px 39px; */
+    padding: 80px 39px 75px 39px;
+  }
+
+  /* - about__box-top - */
+
+  .about__img {
+    margin-right: 28px;
+    width: 211px;
+    height: 187px;
+    background-image: url(../img/about_title_768.png);
+  }
+
+  /* - about__box-bottom - */
+
+  .about__item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about__item-img {
+    margin-right: 0;
+    margin-bottom: 11px;
+  }
+
+  /* - teachers - */
+
+  .teachers--size {
+    /* padding: 73px 39px 43px 39px; */
+    padding: 73px 39px 23px 39px;
+  }
+
+  .teachers__item-article {
+    min-height: 310px;
+    margin-bottom: 26px;
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .teachers__item-img {
+    margin-bottom: 30px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 73px 39px 50px 39px;
+  }
+
+  .courses__item-img-clock {
+    right: 8px;
+  }
+
+  .courses__item-col:nth-child(1) .courses__item-img {
+    background-image: url(../img/course_1_768.jpg);
+  }
+
+  .courses__item-col:nth-child(2) .courses__item-img {
+    background-image: url(../img/course_2_768.jpg);
+  }
+
+  .courses__item-col:nth-child(3) .courses__item-img {
+    background-image: url(../img/course_3_768.jpg);
+  }
+
+  .courses__item-col:nth-child(4) .courses__item-img {
+    background-image: url(../img/course_4_768.jpg);
+  }
+
+  .courses__item-content {
+    min-height: 376px;
+  }
+
+}
+
+/* ---------------------- */
+/* - 5 ---- 767px ------- */
+/* ---------------------- */
+
+/* -- Делаем для 576px -- */
+
+@media (max-width: 767px) {
+
+  /* - header - */
+
+  .header--size {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding: 0 33px;
+  }
+
+  .header__logo-link {
+    margin-right: 0;
+  }
+
+  .header__nav-box {
+    padding-top: 22px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    padding: 77px 33px 135px 33px;
+  }
+
+  .hero::before{
+    background-image: url(../img/hero_bg_576_2.jpg);
+  }
+
+  .hero::after {
+    display: none;
+    width: auto;
+    height: auto;
+    opacity: 0;
+  }
+
+  /* - about - */
+
+  .about--size {
+    padding: 80px 33px 55px 33px;
+  }
+
+  /* - about__box-top - */
+
+  .about__img {
+    align-self: flex-start;
+    /* margin-right: 28px; */
+    width: 150px;
+    height: 134px;
+    background-image: url(../img/about_title_576.png);
+  }
+
+  /* - teachers - */
+
+  .teachers--size {
+    padding: 73px 33px 48px 33px;
+  }
+
+  .teachers__item-article {
+    min-height: 334px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 73px 33px 48px 33px;
+  }
+
+  .courses__item-title {
+    line-height: 130%;
+  }
+
+  .courses__item-col:nth-child(1) .courses__item-img {
+    background-image: url(../img/course_1_576.jpg);
+  }
+
+  .courses__item-col:nth-child(2) .courses__item-img {
+    background-image: url(../img/course_2_576.jpg);
+  }
+
+  .courses__item-col:nth-child(3) .courses__item-img {
+    background-image: url(../img/course_3_576.jpg);
+  }
+
+  .courses__item-col:nth-child(4) .courses__item-img {
+    background-image: url(../img/course_4_576.jpg);
+  }
+
+  .courses__item-content {
+    min-height: 473px;
+  }
+
+  .courses__item-btn {
+    padding: 21px 49px;
+    min-width: 180px;
+  }
+
+}
+
+/* ---------------------- */
+/* - 5 ---- 575px ------- */
+/* ---------------------- */
+
+/* -- Делаем для 320px -- */
+
+@media (max-width: 575px) {
+
+  /* - all - */
+
+  .about__box-bottom-container,
+  .teachers__container,
+  .courses__container {
+    margin: 0 -15px;
+  }
+
+  /* - header - */
+
+  .header--size {
+    padding: 0 15px;
+  }
+
+  .header__logo-link {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .header__nav-box {
+    padding-top: 22px;
+    padding-bottom: 25px;
+  }
+
+  .header__list {
+    width: 485px;
+  }
+
+  .simplebar-track.simplebar-horizontal {
+    bottom: -15px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 56px;
+  }
+
+  /* - hero - */
+
+  .hero--size {
+    padding: 50px 15px 49px 15px;
+  }
+
+  .hero__title {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .hero__descr {
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    padding: 21px 54px;
+    min-width: 213px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero::before {
+    background-image: url(../img/hero_bg_320_2.jpg);
+  }
+
+  /* - about - */
+
+  .about--size {
+    padding: 50px 15px 51px 15px;
+  }
+
+  .about__img {
+    display: none;
+  }
+
+  /* .about__content {
+    max-width: 585px;
+    width: 100%;
+  } */
+
+  .about__title {
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .about__item-col:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .about__item {
+    /* --- */
+    margin: 0 -15px;
+    /* --- */
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about__item-img {
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+  /* - teachers - */
+
+  .teachers--size {
+    padding: 47px 15px 47px 15px;
+  }
+
+  .teachers__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .teachers__item-article {
+    margin: 0 -15px;
+    min-height: 290px;
+    border-radius: 35px 35px 0px 0px;
+  }
+
+  .teachers__item:not(:last-child) .teachers__item-article {
+    margin-bottom: 26px;
+  }
+
+  /* - courses - */
+
+  .courses--size {
+    padding: 46px 15px 48px 15px;
+  }
+
+  .courses__title {
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .courses__item {
+    margin: 0 -15px;
+  }
+
+  .courses__item-col:not(:last-child) .courses__item {
+    margin-bottom: 30px;
+  }
+
+  .courses__item-col:nth-child(1) .courses__item-img {
+    background-image: url(../img/course_1_320.jpg);
+  }
+
+  .courses__item-col:nth-child(2) .courses__item-img {
+    background-image: url(../img/course_2_320.jpg);
+  }
+
+  .courses__item-col:nth-child(3) .courses__item-img {
+    background-image: url(../img/course_3_320.jpg);
+  }
+
+  .courses__item-col:nth-child(4) .courses__item-img {
+    background-image: url(../img/course_4_320.jpg);
+  }
+
+  .courses__item-btn {
+    padding: 21px 56px;
+    min-width: 195px;
+  }
+
+}
